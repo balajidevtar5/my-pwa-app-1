@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 function App() {
   const [deferredPrompt, setDeferredPrompt] = useState(null);
   const [showInstallButton, setShowInstallButton] = useState(false);
+  console.log("showInstallButton",showInstallButton);
 
   useEffect(() => {
     const handler = (e) => {
