@@ -3,6 +3,7 @@ if("serviceWorker" in navigator){
       console.log("SW Registered!");
     }).catch(error=>{
       console.log("SW Registration Failed");
+    //   dafv
     });
 }else{
   console.log("Not supported");
