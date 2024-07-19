@@ -7,10 +7,6 @@ const isLocalhost = Boolean(
   );
   
   export function register(config) {
-    const publicUrl = new URL(window.location.origin);
-      const swUrl = `${publicUrl.origin}/service-worker.js`;
-    console.log("isLocalhost", config);
-
 
     if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
       const publicUrl = new URL(window.location.origin);
